@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="./assets/ico/favicon.png">
+
+      <title>Signin Suppa-Puppa Shop</title>
+
+      <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="./assets/css/signin.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputLogin">Your nickname:</label>
+        <input type="login" id="inputLogin" class="form-control" placeholder="Enter your SP nickname" required="" autofocus="">
+        <br />
+        <label for="inputPassword">Password: </label>
+        <a id="a-forgot-pass" class="a-link-normal" href=".">
+            Forgot your password?
+        </a>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Enter your password" required="">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+
+        <button id="btn-singin" class="btn btn-lg btn-primary btn-block" type="submit"  >Sign in
+        </button>
+
+        <a href="./index.html">Go to main page</a>
+
+        <br />
+        <div id="divider-break" class="a-divider a-divider-break"><h5>Or you can sign up!</h5></div>
+        <br /> <br />
+        <button id="btn-signup" class="btn btn-lg btn-primary btn-block" type="btn"  onclick="self.location.href='.signup.html';" >Create new SP account
+        </button>
+
+      </form>
+    </div>
+  </body>
+</html>
