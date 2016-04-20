@@ -8,20 +8,81 @@
   <link rel="shortcut icon" href="./assets/ico/favicon.png">
 </head>
 <body>
-  <div class="container-fluid">
-    <header>
-      <h1 class="text-primary text-center">Supa-puppa shop</h1>
-    </header>
-    <main>
 
-      <button class="btn" type="button"><i class="fa fa-trash"></i> Test button</button>
+    <header>
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div id="navbar" class="navbar-collapse collapse">
+            <div class="navbar-header">
+              <a href="#" class="navbar-brand">Supapuppa shop</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Goods <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Computers</li>
+                  <li><a href="#">Desktop</a></li>
+                  <li><a href="#">Laptop</a></li>
+                  <li class="divider" role="separator"></li>
+                  <li class="dropdown-header">Telephones</li>
+                  <li><a href="#">Mobile</a></li>
+                  <li><a href="#">Modem</a></li>
+                  <li><a href="#">Station</a></li>
+                  <li class="divider" role="separator"></li>
+                  <li class="dropdown-header">Audio</li>
+                  <li><a href="#">Headphones</a></li>
+                  <li><a href="#">Players</a></li>
+                  <li><a href="#">Hi-fi</a></li>
+                  <li class="divider" role="separator"></li>
+                  <li class="dropdown-header">Etc</li>
+                  <li><a href="#">...</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Promo <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Codes</a></li>
+                  <li><a href="#">Gifts</a></li>
+                  <li><a href="#">Today's unique deals</a></li>
+                  <li><a href="#">Discount system</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Shipping info</a></li>
+            </ul>
+
+            <div class="navbar-form navbar-right">
+              <form class="form-group" action="index.html" method="post">
+                <input class="form-control" type="text" name="name" placeholder="Type info to search ...">
+                <button class="btn btn-default" type="submit" name="button">Search</button>
+              </form>
+              <div class="form-group">
+                <button class="btn btn-info" type="button" name="button">Sign in</button>
+                <button class="btn btn-success" type="button" name="button">Sign up</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="">
+          <button class="btn" type="button"><i class="fa fa-trash"></i> Test button</button>
+
+        </div>
+      </div>
     </main>
     <footer>
 
     </footer>
-  </div>
 
   <script src="./assets/js/jquery-2.2.2.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 </html>
